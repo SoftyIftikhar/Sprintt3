@@ -1,0 +1,27 @@
+# DonationPal
+
+## Introduction
+
+DonationPal is a web application that helps users create and manage fundraising campaigns to support various causes.
+
+## Installation
+
+1. Clone the repository.
+2. Install dependencies using npm: `npm install`.
+3. Set up environment variables as specified in `.env.example`.
+4. Run the application: `npm start`.
+
+## Usage
+
+To create a new campaign, navigate to the Create Campaign page and fill out the required information. Users can then share the campaign link to collect donations.
+
+## API Documentation
+
+- **GET /api/campaigns**: Returns a list of all campaigns.
+- **GET /api/campaigns/:id**: Returns details of a specific campaign by ID.
+
+For more information, refer to the API documentation.
+
+## Contributing
+
+Contributions are welcome! Please follow the guidelines in CONTRIBUTING.md before submitting a pull request.
